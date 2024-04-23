@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Progetto Musicale Emi</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    
+    .album-card {
+      margin-bottom: 20px;
+      background-color: 	#e0ebeb;
+      border: 1px solid 	#0000CD;
+      border-radius: 10px;
+      transition: transform 0.3s;
+      margin-top:50px;
+    }
+
+    .album-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .album-cover {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .navbar {
+      background-color: #17a2b8;
+    }
+
+    .navbar-brand,
+    .navbar-nav .nav-link {
+      color: #fff;
+    }
+
+    .navbar-toggler-icon {
+      background-color: #fff;
+    }
+
+    h2 {
+      color: #17a2b8;
+      margin-top:50px;
+      text-align:center;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container">
+    <a class="navbar-brand" href="#">Emi DJ</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#preferiti">Preferiti</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#altro">Playlist</a>
+        </li>
+       
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <h2 id="preferiti">Album Preferiti</h2>
+  <div class="row">
+    <div class="col-lg-3 col-md-4 col-sm-6">
+      <div class="card album-card">
+        <img src="https://m.media-amazon.com/images/I/819qdTNLMxL._UF1000,1000_QL80_.jpg" class="card-img-top album-cover" alt="Album Cover">
+        <div class="card-body">
+          <h5 class="card-title">Born in the U.S.A.</h5>
+          <p class="card-text">Bruce Springsteen</p>
+          <p class="card-text">Genere : Rock</p>
+          <p class="card-text">Durata : 46:57</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+      <div class="card album-card">
+        <img src="https://www.virginradio.it/upload/queen_greatest_hits-1625060950168.jpg" class="card-img-top album-cover" alt="Album Cover">
+        <div class="card-body">
+          <h5 class="card-title">Greatest Hits</h5>
+          <p class="card-text">QUEEN</p>
+          <p class="card-text">Genere : Pop/Rock</p>
+          <p class="card-text">Durata : 58:27</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+      <div class="card album-card">
+        <img src="https://m.media-amazon.com/images/I/913eO-iD9BL._UF894,1000_QL80_.jpg" class="card-img-top album-cover" alt="Album Cover">
+        <div class="card-body">
+          <h5 class="card-title">Where the light is</h5>
+          <p class="card-text">John Mayer</p>
+          <p class="card-text">Genere : Rock</p>
+          <p class="card-text">Durata : 124:16</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+      <div class="card album-card">
+        <img src="https://i.scdn.co/image/ab67616d0000b27313b3e37318a0c247b550bccd" class="card-img-top album-cover" alt="Album Cover">
+        <div class="card-body">
+          <h5 class="card-title">X</h5>
+          <p class="card-text">Ed Sheeran</p>
+          <p class="card-text">Genere : Pop</p>
+          <p class="card-text">Durata : 50:30</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
